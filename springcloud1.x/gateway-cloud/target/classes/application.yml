@@ -1,0 +1,12 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: gateway-cloud
+  profiles:
+    active: dev    
+logging:
+  config: classpath:logback-fintech.xml
+
+            
+    

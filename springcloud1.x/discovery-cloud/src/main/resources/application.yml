@@ -1,0 +1,30 @@
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123  
+server:
+  port: 5114
+spring:
+  application:
+    name: DISCOVERY-HA
+  profiles:
+    active: local
+logging:
+  config: classpath:logback-fintech.xml
+---
+spring:
+  profiles: local
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://user:password123@localhost:5114/eureka
+      
+#shutdown
+endpoints:
+  shutdown:
+    enabled: true
+    sensitive: false

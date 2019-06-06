@@ -1,0 +1,36 @@
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:5114/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+
+#shutdown
+endpoints:
+  shutdown:
+    enabled: true
+    sensitive: false
+
+
+zuul:
+  routes: 
+    edu1:
+      path: /api/edu1/**
+      serviceId: edu1-cloud
+      stripPrefix: false
+      sensitiveHeaders:
+    edu2:
+      path: /api/edu2/**
+      serviceId: edu2-cloud
+      stripPrefix: false
+      sensitiveHeaders:
+   
+      
+hystrix.command.default.execution.timeout.enabled: false
+spring.http.encoding.force-request: false
+management: 
+  security:
+    enabled: false

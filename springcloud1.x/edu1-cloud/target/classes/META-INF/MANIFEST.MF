@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: edu1-cloud
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: John
+Implementation-Vendor-Id: cn.fsbay.edu1
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://projects.spring.io/spring-boot/frame-cloud/
+ edu1-cloud/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

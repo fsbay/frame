@@ -1,0 +1,72 @@
+server:
+  port: 5121
+spring:
+  application:
+    name: monitor-cloud
+  profiles:
+    active: local
+  thymeleaf:
+    prefix: classpath:/templates/
+logging:
+  config: classpath:logback-fintech.xml
+management:
+  security:
+    enabled: false
+info:
+  version: '1.0-SNAPSHOT'
+   
+security:  
+  user:  
+    name: sba  
+    password: passwd 
+  
+---
+spring:
+  profiles: local
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://user:password123@localhost:5114/eureka
+---
+spring:
+  profiles: dev
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://user:password123@192.168.11.170:5114/eureka  
+---
+spring:
+  profiles: dev1
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://user:password123@localhost:5114/eureka  
+---
+spring:
+  profiles: test
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://user:password123@peer1:5114/eureka,http://user:password123@peer2:5114/eureka  
+---
+spring:
+  profiles: dprod
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://user:password123@localhost:5114/eureka 
+---
+spring:
+  profiles: prod
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://user:password123@peer1:5114/eureka,http://user:password123@peer2:5114/eureka
+
+  

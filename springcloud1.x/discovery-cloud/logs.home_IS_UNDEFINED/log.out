@@ -1,0 +1,117 @@
+2019-06-06 13:00:58.872 |-INFO  [main] cn.fsbay.discovery.EurekaApplication [597] -| The following profiles are active: local
+2019-06-06 13:01:01.522 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [70] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-06-06 13:01:01.529 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [70] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-06-06 13:01:01.530 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [163] -| Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-06-06 13:01:01.532 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [185] -| Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-06-06 13:01:01.533 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [199] -| Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy29
+2019-06-06 13:01:01.533 |-DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser [99] -| Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-06-06 13:01:01.534 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [47] -| Trying to load META-INF/validation.xml via user class loader
+2019-06-06 13:01:01.535 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [54] -| Trying to load META-INF/validation.xml via TCCL
+2019-06-06 13:01:01.535 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [60] -| Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-06-06 13:01:01.538 |-DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser [106] -| No META-INF/validation.xml found. Using annotation based configuration only.
+2019-06-06 13:01:03.327 |-INFO  [main] org.apache.catalina.core.StandardService [180] -| Starting service [Tomcat]
+2019-06-06 13:01:03.329 |-INFO  [main] org.apache.catalina.core.StandardEngine [180] -| Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-06-06 13:01:03.645 |-INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [180] -| Initializing Spring embedded WebApplicationContext
+2019-06-06 13:01:05.014 |-INFO  [localhost-startStop-1] com.sun.jersey.server.impl.application.WebApplicationImpl [815] -| Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-06-06 13:01:06.237 |-WARN  [main] com.netflix.config.sources.URLConfigurationSource [121] -| No URLs will be polled as dynamic configuration sources.
+2019-06-06 13:01:06.247 |-WARN  [main] com.netflix.config.sources.URLConfigurationSource [121] -| No URLs will be polled as dynamic configuration sources.
+2019-06-06 13:01:06.275 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [70] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-06-06 13:01:06.282 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [70] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-06-06 13:01:06.283 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [163] -| Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-06-06 13:01:06.283 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [185] -| Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-06-06 13:01:06.283 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [199] -| Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy29
+2019-06-06 13:01:06.284 |-DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser [99] -| Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-06-06 13:01:06.285 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [47] -| Trying to load META-INF/validation.xml via user class loader
+2019-06-06 13:01:06.286 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [54] -| Trying to load META-INF/validation.xml via TCCL
+2019-06-06 13:01:06.287 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [60] -| Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-06-06 13:01:06.288 |-DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser [106] -| No META-INF/validation.xml found. Using annotation based configuration only.
+2019-06-06 13:01:15.362 |-WARN  [main] com.netflix.eureka.cluster.PeerEurekaNodes [156] -| The replica size seems to be empty. Check the route 53 DNS Registry
+2019-06-06 13:01:15.859 |-INFO  [main] cn.fsbay.discovery.EurekaApplication [57] -| Started EurekaApplication in 25.966 seconds (JVM running for 26.837)
+2019-06-06 13:03:06.828 |-INFO  [http-nio-5114-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [180] -| Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-06 13:03:18.810 |-DEBUG [http-nio-5114-exec-5] freemarker.cache [44] -| Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:03:18.812 |-DEBUG [http-nio-5114-exec-5] freemarker.cache [44] -| TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-06-06 13:03:18.814 |-DEBUG [http-nio-5114-exec-5] freemarker.cache [44] -| TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-06-06 13:03:18.815 |-DEBUG [http-nio-5114-exec-5] freemarker.cache [44] -| TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-06-06 13:03:35.116 |-DEBUG [http-nio-5114-exec-10] freemarker.cache [44] -| TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2019-06-06 13:03:35.117 |-DEBUG [http-nio-5114-exec-10] freemarker.cache [44] -| TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2019-06-06 13:03:35.118 |-DEBUG [http-nio-5114-exec-10] freemarker.cache [44] -| TemplateLoader.findTemplateSource("error.ftl"): Not found
+2019-06-06 13:03:35.119 |-DEBUG [http-nio-5114-exec-10] freemarker.cache [44] -| "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+2019-06-06 13:03:56.141 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Couldn't find template in cache for "eureka/status.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:03:56.143 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/status_zh_CN.ftl"): Not found
+2019-06-06 13:03:56.145 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/status_zh.ftl"): Not found
+2019-06-06 13:03:56.146 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/status.ftl"): Found
+2019-06-06 13:03:56.147 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Loading template for "eureka/status.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/eureka/status.ftl]"
+2019-06-06 13:03:56.342 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| "eureka/status.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-06-06 13:03:56.360 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Couldn't find template in cache for "spring.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:03:56.361 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("spring_zh_CN.ftl"): Not found
+2019-06-06 13:03:56.363 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("spring_zh.ftl"): Not found
+2019-06-06 13:03:56.364 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("spring.ftl"): Found
+2019-06-06 13:03:56.365 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Loading template for "spring.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/E:/code/mvn/repo/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/view/freemarker/spring.ftl"
+2019-06-06 13:03:56.441 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Couldn't find template in cache for "eureka/header.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:03:56.443 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/header_zh_CN.ftl"): Not found
+2019-06-06 13:03:56.444 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/header_zh.ftl"): Not found
+2019-06-06 13:03:56.445 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/header.ftl"): Found
+2019-06-06 13:03:56.446 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Loading template for "eureka/header.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/eureka/header.ftl]"
+2019-06-06 13:03:56.448 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| "spring.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-06-06 13:03:56.452 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Couldn't find template in cache for "eureka/navbar.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:03:56.454 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/navbar_zh_CN.ftl"): Not found
+2019-06-06 13:03:56.456 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/navbar_zh.ftl"): Not found
+2019-06-06 13:03:56.458 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/navbar.ftl"): Found
+2019-06-06 13:03:56.459 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Loading template for "eureka/navbar.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/eureka/navbar.ftl]"
+2019-06-06 13:08:45.943 |-INFO  [main] cn.fsbay.discovery.EurekaApplication [597] -| The following profiles are active: local
+2019-06-06 13:08:47.925 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [70] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-06-06 13:08:47.931 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [70] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-06-06 13:08:47.932 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [163] -| Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-06-06 13:08:47.933 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [185] -| Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-06-06 13:08:47.934 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [199] -| Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy29
+2019-06-06 13:08:47.935 |-DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser [99] -| Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-06-06 13:08:47.935 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [47] -| Trying to load META-INF/validation.xml via user class loader
+2019-06-06 13:08:47.936 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [54] -| Trying to load META-INF/validation.xml via TCCL
+2019-06-06 13:08:47.937 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [60] -| Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-06-06 13:08:47.938 |-DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser [106] -| No META-INF/validation.xml found. Using annotation based configuration only.
+2019-06-06 13:08:49.843 |-INFO  [main] org.apache.catalina.core.StandardService [180] -| Starting service [Tomcat]
+2019-06-06 13:08:49.846 |-INFO  [main] org.apache.catalina.core.StandardEngine [180] -| Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-06-06 13:08:50.132 |-INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [180] -| Initializing Spring embedded WebApplicationContext
+2019-06-06 13:08:51.770 |-INFO  [localhost-startStop-1] com.sun.jersey.server.impl.application.WebApplicationImpl [815] -| Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-06-06 13:08:53.588 |-WARN  [main] com.netflix.config.sources.URLConfigurationSource [121] -| No URLs will be polled as dynamic configuration sources.
+2019-06-06 13:08:53.598 |-WARN  [main] com.netflix.config.sources.URLConfigurationSource [121] -| No URLs will be polled as dynamic configuration sources.
+2019-06-06 13:08:53.636 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [70] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-06-06 13:08:53.648 |-DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver [70] -| Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-06-06 13:08:53.649 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [163] -| Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-06-06 13:08:53.650 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [185] -| Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-06-06 13:08:53.650 |-DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl [199] -| Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy29
+2019-06-06 13:08:53.651 |-DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser [99] -| Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-06-06 13:08:53.653 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [47] -| Trying to load META-INF/validation.xml via user class loader
+2019-06-06 13:08:53.654 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [54] -| Trying to load META-INF/validation.xml via TCCL
+2019-06-06 13:08:53.655 |-DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper [60] -| Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-06-06 13:08:53.656 |-DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser [106] -| No META-INF/validation.xml found. Using annotation based configuration only.
+2019-06-06 13:09:04.627 |-WARN  [main] com.netflix.eureka.cluster.PeerEurekaNodes [156] -| The replica size seems to be empty. Check the route 53 DNS Registry
+2019-06-06 13:09:05.170 |-INFO  [main] cn.fsbay.discovery.EurekaApplication [57] -| Started EurekaApplication in 28.11 seconds (JVM running for 28.778)
+2019-06-06 13:09:07.137 |-INFO  [http-nio-5114-exec-10] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [180] -| Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-06 13:09:07.248 |-WARN  [http-nio-5114-exec-10] com.netflix.eureka.registry.AbstractInstanceRegistry [357] -| DS: Registry: lease doesn't exist, registering resource: EDU1-CLOUD - edu1-cloud:169.254.183.185:5999
+2019-06-06 13:09:07.249 |-WARN  [http-nio-5114-exec-10] com.netflix.eureka.resources.InstanceResource [116] -| Not Found (Renew): EDU1-CLOUD - edu1-cloud:169.254.183.185:5999
+2019-06-06 13:09:18.552 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Couldn't find template in cache for "eureka/status.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:09:18.554 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/status_zh_CN.ftl"): Not found
+2019-06-06 13:09:18.557 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/status_zh.ftl"): Not found
+2019-06-06 13:09:18.559 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/status.ftl"): Found
+2019-06-06 13:09:18.560 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Loading template for "eureka/status.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/eureka/status.ftl]"
+2019-06-06 13:09:18.763 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| "eureka/status.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-06-06 13:09:18.786 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Couldn't find template in cache for "spring.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:09:18.787 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("spring_zh_CN.ftl"): Not found
+2019-06-06 13:09:18.788 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("spring_zh.ftl"): Not found
+2019-06-06 13:09:18.789 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("spring.ftl"): Found
+2019-06-06 13:09:18.790 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Loading template for "spring.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/E:/code/mvn/repo/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/view/freemarker/spring.ftl"
+2019-06-06 13:09:18.882 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Couldn't find template in cache for "eureka/header.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:09:18.883 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/header_zh_CN.ftl"): Not found
+2019-06-06 13:09:18.885 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/header_zh.ftl"): Not found
+2019-06-06 13:09:18.886 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/header.ftl"): Found
+2019-06-06 13:09:18.887 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Loading template for "eureka/header.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/eureka/header.ftl]"
+2019-06-06 13:09:18.890 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| "spring.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2019-06-06 13:09:18.893 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Couldn't find template in cache for "eureka/navbar.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-06-06 13:09:18.894 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/navbar_zh_CN.ftl"): Not found
+2019-06-06 13:09:18.898 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/navbar_zh.ftl"): Not found
+2019-06-06 13:09:18.899 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| TemplateLoader.findTemplateSource("eureka/navbar.ftl"): Found
+2019-06-06 13:09:18.900 |-DEBUG [http-nio-5114-exec-6] freemarker.cache [44] -| Loading template for "eureka/navbar.ftl"("zh_CN", UTF-8, parsed) from "class path resource [templates/eureka/navbar.ftl]"
+2019-06-06 13:19:04.631 |-WARN  [Eureka-PeerNodesUpdater] com.netflix.eureka.cluster.PeerEurekaNodes [156] -| The replica size seems to be empty. Check the route 53 DNS Registry
+2019-06-06 13:29:04.632 |-WARN  [Eureka-PeerNodesUpdater] com.netflix.eureka.cluster.PeerEurekaNodes [156] -| The replica size seems to be empty. Check the route 53 DNS Registry
+2019-06-06 13:39:04.634 |-WARN  [Eureka-PeerNodesUpdater] com.netflix.eureka.cluster.PeerEurekaNodes [156] -| The replica size seems to be empty. Check the route 53 DNS Registry

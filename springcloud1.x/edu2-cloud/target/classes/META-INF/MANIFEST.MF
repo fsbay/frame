@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: edu2-cloud
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: John
+Implementation-Vendor-Id: com.cmb.edu
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://projects.spring.io/spring-boot/frame-cloud/
+ edu2-cloud/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
