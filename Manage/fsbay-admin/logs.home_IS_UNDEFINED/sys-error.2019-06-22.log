@@ -1,0 +1,280 @@
+16:48:19.938 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561192806230_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1767 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+16:59:02.854 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561193501030_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1042 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561193929810,"WAITING"]
+17:00:29.930 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561193501030_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2952 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561194014978,"WAITING"]
+17:00:29.930 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561193501030_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2887 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+17:00:47.403 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561193501030_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1896 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+17:00:51.332 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2379 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561194077745,1561194036952]
+17:35:51.488 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561193501030_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1067 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561196138420,"WAITING"]
+17:36:37.297 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561193501030_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 3097 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561196194200,"DESKTOP-EMESP7Q1561193501030"]
+19:04:22.510 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1528 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561201460980,"DESKTOP-EMESP7Q1561200078679"]
+19:05:29.047 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 6059 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:05:33.250 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 4201 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561201529048,"DESKTOP-EMESP7Q1561200078679"]
+19:05:33.250 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 4201 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561201517048,"WAITING"]
+19:05:44.639 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 4786 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561201527851,"WAITING"]
+19:05:53.385 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 4932 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:09:22.234 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1056 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561201789496,1561201749177]
+19:09:31.525 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2765 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561201756758,"WAITING"]
+19:35:17.996 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1777 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561203304218,"WAITING"]
+19:35:41.254 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1459 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561203327794,"WAITING"]
+19:35:42.627 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1878 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561203370337,1561203328749]
+19:44:17.006 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1195 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561203843809,"WAITING"]
+19:44:18.270 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2674 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:44:46.237 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1369 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561203914560,1561203872866]
+19:45:17.264 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1187 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561203904076,"WAITING"]
+19:45:20.485 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1382 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:46:53.430 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1215 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:47:07.948 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 4133 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204011815,"WAITING"]
+19:47:11.498 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1520 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:47:12.610 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1110 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561204031498,"DESKTOP-EMESP7Q1561200078679"]
+19:47:35.327 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2614 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561204082653,1561204040712]
+19:47:44.234 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1715 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561204062519,"DESKTOP-EMESP7Q1561200078679"]
+19:49:16.490 [Druid-ConnectionPool-Create-1734443098] ERROR c.a.d.p.DruidDataSource - [run,2572] - create connection SQLException, url: jdbc:mysql://47.98.121.83:7306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1580)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2570)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:351)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.negotiateSSLConnection(NativeAuthenticationProvider.java:777)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:486)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:202)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1442)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 9 common frames omitted
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:994)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+	at com.mysql.cj.protocol.ExportControlled.performTlsHandshake(ExportControlled.java:315)
+	at com.mysql.cj.protocol.StandardSocketFactory.performTlsHandshake(StandardSocketFactory.java:188)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.performTlsHandshake(NativeSocketConnection.java:99)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:347)
+	... 16 common frames omitted
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	... 23 common frames omitted
+19:49:43.335 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1158 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204170176,"WAITING"]
+19:50:07.879 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1693 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204194186,"WAITING"]
+19:50:09.387 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 10324 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:50:20.751 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2507 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204206244,"WAITING"]
+19:51:11.565 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1892 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:51:36.007 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1154 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561204324471,1561204282852]
+19:51:43.148 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1169 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561204301979,"DESKTOP-EMESP7Q1561200078679"]
+19:51:55.454 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1280 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204302173,"WAITING"]
+19:52:07.250 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1052 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204314197,"WAITING"]
+19:53:10.755 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 4068 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204374686,"WAITING"]
+19:53:17.107 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1882 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:53:48.342 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1066 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561204427275,"DESKTOP-EMESP7Q1561200078679"]
+19:54:03.447 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1044 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561204442402,"DESKTOP-EMESP7Q1561200078679"]
+19:55:15.314 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2406 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561204542847,1561204500907]
+19:55:20.348 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1403 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+19:57:12.888 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1522 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204619364,"WAITING"]
+19:57:31.382 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2282 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561204677894,1561204637098]
+19:57:38.165 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1887 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204644278,"WAITING"]
+19:57:59.935 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 2096 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561204677838,"DESKTOP-EMESP7Q1561200078679"]
+19:58:01.402 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_MisfireHandler] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1175 millis. SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND NOT (MISFIRE_INSTR = -1) AND NEXT_FIRE_TIME < ? AND TRIGGER_STATE = ?[1561204668226,"WAITING"]
+19:59:52.032 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1618 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561204820367,1561204778414]
+20:06:01.594 [FsbayScheduler_QuartzSchedulerThread] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 1856 millis. SELECT TRIGGER_NAME, TRIGGER_GROUP, NEXT_FIRE_TIME, PRIORITY FROM QRTZ_TRIGGERS WHERE SCHED_NAME = 'FsbayScheduler' AND TRIGGER_STATE = ? AND NEXT_FIRE_TIME <= ? AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR != -1 AND NEXT_FIRE_TIME >= ?)) ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC["WAITING",1561205188401,1561205147737]
+20:06:10.371 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 3556 millis. SELECT * FROM QRTZ_SCHEDULER_STATE WHERE SCHED_NAME = 'FsbayScheduler'[]
+20:06:18.475 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.f.s.StatFilter - [internalAfterStatementExecute,478] - slow sql 8103 millis. UPDATE QRTZ_SCHEDULER_STATE SET LAST_CHECKIN_TIME = ? WHERE SCHED_NAME = 'FsbayScheduler' AND INSTANCE_NAME = ?[1561205170371,"DESKTOP-EMESP7Q1561200078679"]
+21:33:44.145 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.p.DruidPooledStatement - [errorCheck,362] - CommunicationsException, druid version 1.1.14, jdbcUrl : jdbc:mysql://47.98.121.83:7306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, testWhileIdle true, idle millis 1204, minIdle 10, poolingCount 0, timeBetweenEvictionRunsMillis 60000, lastValidIdleMillis 1204, driver com.mysql.cj.jdbc.Driver, exceptionSorter com.alibaba.druid.pool.vendor.MySqlExceptionSorter
+21:33:44.146 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR c.a.d.p.DruidDataSource - [handleFatalError,1691] - discard connection
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,066 milliseconds ago.  The last packet sent successfully to the server was 1,106 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setSessionMaxRows(ConnectionImpl.java:2448)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1022)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3188)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3185)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:181)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectSchedulerStateRecords(StdJDBCDelegate.java:2994)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.findFailedInstances(JobStoreSupport.java:3369)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.clusterCheckIn(JobStoreSupport.java:3455)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3315)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3920)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3957)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,066 milliseconds ago.  The last packet sent successfully to the server was 1,106 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:555)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:725)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:664)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:979)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:914)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1150)
+	at com.mysql.cj.jdbc.ConnectionImpl.setSessionMaxRows(ConnectionImpl.java:2444)
+	... 12 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:933)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:549)
+	... 18 common frames omitted
+21:33:44.149 [Druid-ConnectionPool-Create-1734443098] ERROR c.a.d.p.DruidDataSource - [run,2572] - create connection SQLException, url: jdbc:mysql://47.98.121.83:7306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1580)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1644)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2570)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:351)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.negotiateSSLConnection(NativeAuthenticationProvider.java:777)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:486)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:202)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1442)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 9 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1367)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1395)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1379)
+	at com.mysql.cj.protocol.ExportControlled.performTlsHandshake(ExportControlled.java:315)
+	at com.mysql.cj.protocol.StandardSocketFactory.performTlsHandshake(StandardSocketFactory.java:188)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.performTlsHandshake(NativeSocketConnection.java:99)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:347)
+	... 16 common frames omitted
+21:33:44.190 [QuartzScheduler_FsbayScheduler-DESKTOP-EMESP7Q1561200078679_ClusterManager] ERROR o.s.s.q.LocalDataSourceJobStore - [manage,3926] - ClusterManager: Error managing cluster: Failure identifying failed instances when checking-in: Communications link failure
+
+The last packet successfully received from the server was 1,066 milliseconds ago.  The last packet sent successfully to the server was 1,106 milliseconds ago.
+org.quartz.JobPersistenceException: Failure identifying failed instances when checking-in: Communications link failure
+
+The last packet successfully received from the server was 1,066 milliseconds ago.  The last packet sent successfully to the server was 1,106 milliseconds ago.
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.findFailedInstances(JobStoreSupport.java:3405)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.clusterCheckIn(JobStoreSupport.java:3455)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3315)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3920)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3957)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,066 milliseconds ago.  The last packet sent successfully to the server was 1,106 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.setSessionMaxRows(ConnectionImpl.java:2448)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1022)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3188)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:3185)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:181)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectSchedulerStateRecords(StdJDBCDelegate.java:2994)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.findFailedInstances(JobStoreSupport.java:3369)
+	... 4 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,066 milliseconds ago.  The last packet sent successfully to the server was 1,106 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:555)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:725)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:664)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:979)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:914)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:1150)
+	at com.mysql.cj.jdbc.ConnectionImpl.setSessionMaxRows(ConnectionImpl.java:2444)
+	... 12 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:933)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:549)
+	... 18 common frames omitted

@@ -1,0 +1,341 @@
+16:38:02.942 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarting,50] - Starting MerchantApplication on DESKTOP-EMESP7Q with PID 8432 (E:\code\open\fsbay\frame\Manage\fsbay-admin\target\classes started by John in E:\code\open\fsbay\frame\Manage\fsbay-admin)
+16:38:02.949 [restartedMain] INFO  c.f.m.MerchantApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+16:38:08.497 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+16:38:08.498 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache]
+16:38:10.376 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+16:38:12.938 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-7000"]
+16:38:12.955 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:38:12.956 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:38:12.975 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\John\AppData\Local\Microsoft\WindowsApps;C:\sbin;C:\Users\John\AppData\Roaming\npm;D:\Program Files\mysql-5.7.25-winx64\bin;D:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\John\AppData\Local\Yarn\bin;.]
+16:38:13.207 [restartedMain] INFO  o.a.c.c.C.[.[.[/fsbay] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:38:16.336 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+16:38:16.439 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+16:38:16.472 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:38:16.473 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+16:38:16.486 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'FsbayScheduler' with instanceId 'DESKTOP-EMESP7Q1561192696445'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+16:38:16.486 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'FsbayScheduler' initialized from an externally provided properties instance.
+16:38:16.487 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+16:38:16.489 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@624fd342
+16:38:19.637 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:38:21.047 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+16:38:21.077 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+16:38:21.453 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:38:22.063 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-7000"]
+16:38:22.100 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:38:22.150 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarted,59] - Started MerchantApplication in 20.102 seconds (JVM running for 21.159)
+16:38:23.327 [Quartz Scheduler [FsbayScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561192696445 started.
+16:39:52.825 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarting,50] - Starting MerchantApplication on DESKTOP-EMESP7Q with PID 6060 (E:\code\open\fsbay\frame\Manage\fsbay-admin\target\classes started by John in E:\code\open\fsbay\frame\Manage\fsbay-admin)
+16:39:52.832 [restartedMain] INFO  c.f.m.MerchantApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+16:39:58.360 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+16:39:58.362 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache]
+16:40:00.243 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+16:40:02.723 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-7000"]
+16:40:02.742 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:40:02.743 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:40:02.761 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\John\AppData\Local\Microsoft\WindowsApps;C:\sbin;C:\Users\John\AppData\Roaming\npm;D:\Program Files\mysql-5.7.25-winx64\bin;D:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\John\AppData\Local\Yarn\bin;.]
+16:40:02.995 [restartedMain] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:40:06.140 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+16:40:06.223 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+16:40:06.261 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:40:06.262 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+16:40:06.276 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'FsbayScheduler' with instanceId 'DESKTOP-EMESP7Q1561192806230'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+16:40:06.277 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'FsbayScheduler' initialized from an externally provided properties instance.
+16:40:06.278 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+16:40:06.282 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@14ed1d90
+16:40:11.061 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:40:12.315 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+16:40:12.348 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+16:40:12.540 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:40:12.833 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-7000"]
+16:40:12.847 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:40:12.922 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarted,59] - Started MerchantApplication in 20.907 seconds (JVM running for 21.882)
+16:40:14.164 [Quartz Scheduler [FsbayScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561192806230 started.
+16:40:49.006 [http-nio-7000-exec-2] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:40:49.071 [http-nio-7000-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+16:40:49.120 [http-nio-7000-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+16:40:49.122 [http-nio-7000-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [shiro-activeSessionCache]
+16:40:50.240 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+16:40:50.339 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+16:48:54.992 [Thread-7] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561192806230 paused.
+16:48:54.998 [Thread-7] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561192806230 shutting down.
+16:48:54.998 [Thread-7] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561192806230 paused.
+16:48:55.001 [Thread-7] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561192806230 shutdown complete.
+16:48:55.002 [Thread-7] INFO  sys-user - [shutdownSpringSessionValidationScheduler,44] - ====关闭会话验证任务====
+16:48:55.003 [Thread-7] INFO  sys-user - [shutdownAsyncManager,61] - ====关闭后台任务任务线程池====
+16:48:55.022 [Thread-7] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+16:48:56.929 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarting,50] - Starting MerchantApplication on DESKTOP-EMESP7Q with PID 6060 (E:\code\open\fsbay\frame\Manage\fsbay-admin\target\classes started by John in E:\code\open\fsbay\frame\Manage\fsbay-admin)
+16:48:56.932 [restartedMain] INFO  c.f.m.MerchantApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+16:48:59.307 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache.1' does not yet exist.  Creating now.
+16:48:59.310 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache.1]
+16:51:27.052 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarting,50] - Starting MerchantApplication on DESKTOP-EMESP7Q with PID 11384 (E:\code\open\fsbay\frame\Manage\fsbay-admin\target\classes started by John in E:\code\open\fsbay\frame\Manage\fsbay-admin)
+16:51:27.059 [restartedMain] INFO  c.f.m.MerchantApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+16:51:33.247 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+16:51:33.248 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache]
+16:51:35.065 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+16:51:37.613 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-7000"]
+16:51:37.630 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:51:37.631 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+16:51:37.650 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\John\AppData\Local\Microsoft\WindowsApps;C:\sbin;C:\Users\John\AppData\Roaming\npm;D:\Program Files\mysql-5.7.25-winx64\bin;D:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\John\AppData\Local\Yarn\bin;.]
+16:51:37.889 [restartedMain] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:51:40.929 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+16:51:41.025 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+16:51:41.053 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:51:41.054 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+16:51:41.067 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'FsbayScheduler' with instanceId 'DESKTOP-EMESP7Q1561193501030'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+16:51:41.067 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'FsbayScheduler' initialized from an externally provided properties instance.
+16:51:41.067 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+16:51:41.070 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@116f1c7a
+16:51:46.288 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+16:51:47.772 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+16:51:47.807 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+16:51:47.975 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:51:48.319 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-7000"]
+16:51:48.341 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+16:51:48.401 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarted,59] - Started MerchantApplication in 22.2 seconds (JVM running for 23.266)
+16:51:49.731 [Quartz Scheduler [FsbayScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561193501030 started.
+16:52:07.686 [http-nio-7000-exec-2] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:52:07.763 [http-nio-7000-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+16:52:07.769 [http-nio-7000-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+16:52:07.771 [http-nio-7000-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [shiro-activeSessionCache]
+16:52:08.987 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+16:52:09.057 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+17:02:08.766 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+17:02:08.808 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+17:12:08.766 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+17:12:08.797 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+17:22:08.766 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+17:22:08.825 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+17:32:08.765 [schedule-pool-3] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+17:32:08.794 [schedule-pool-3] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+17:42:08.767 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+17:42:08.796 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+17:52:08.766 [schedule-pool-4] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+17:52:08.825 [schedule-pool-4] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+18:02:08.765 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+18:02:08.805 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+18:08:44.850 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarting,50] - Starting MerchantApplication on DESKTOP-EMESP7Q with PID 13400 (E:\code\open\fsbay\frame\Manage\fsbay-admin\target\classes started by John in E:\code\open\fsbay\frame\Manage\fsbay-admin)
+18:08:44.858 [restartedMain] INFO  c.f.m.MerchantApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+18:08:51.486 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+18:08:51.487 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache]
+18:08:53.566 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+18:08:56.434 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-7000"]
+18:08:56.454 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:08:56.455 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+18:08:56.475 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\John\AppData\Local\Microsoft\WindowsApps;C:\sbin;C:\Users\John\AppData\Roaming\npm;D:\Program Files\mysql-5.7.25-winx64\bin;D:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\John\AppData\Local\Yarn\bin;.]
+18:08:56.775 [restartedMain] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:09:00.202 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+18:09:00.380 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+18:09:00.416 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+18:09:00.417 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+18:09:00.429 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'FsbayScheduler' with instanceId 'DESKTOP-EMESP7Q1561198140386'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+18:09:00.430 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'FsbayScheduler' initialized from an externally provided properties instance.
+18:09:00.430 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+18:09:00.437 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4b47165d
+18:09:05.836 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:09:08.000 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:09:08.049 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:09:08.238 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:09:08.598 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-7000"]
+18:09:08.627 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+18:09:08.686 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarted,59] - Started MerchantApplication in 24.721 seconds (JVM running for 25.72)
+18:09:10.010 [Quartz Scheduler [FsbayScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561198140386 started.
+18:09:17.902 [http-nio-7000-exec-27] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:09:17.966 [http-nio-7000-exec-27] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+18:09:17.971 [http-nio-7000-exec-27] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+18:09:17.973 [http-nio-7000-exec-27] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [shiro-activeSessionCache]
+18:09:18.968 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+18:09:19.011 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+18:09:33.283 [schedule-pool-1] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:17:40.047 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarting,50] - Starting MerchantApplication on DESKTOP-EMESP7Q with PID 6796 (E:\code\open\fsbay\frame\Manage\fsbay-admin\target\classes started by John in E:\code\open\fsbay\frame\Manage\fsbay-admin)
+18:17:40.056 [restartedMain] INFO  c.f.m.MerchantApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+18:17:46.934 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+18:17:46.935 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache]
+18:17:49.216 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+18:17:51.932 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-7000"]
+18:17:51.951 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:17:51.952 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+18:17:51.969 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\John\AppData\Local\Microsoft\WindowsApps;C:\sbin;C:\Users\John\AppData\Roaming\npm;D:\Program Files\mysql-5.7.25-winx64\bin;D:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\John\AppData\Local\Yarn\bin;.]
+18:17:52.247 [restartedMain] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:17:56.166 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+18:17:56.263 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+18:17:56.295 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+18:17:56.296 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+18:17:56.311 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'FsbayScheduler' with instanceId 'DESKTOP-EMESP7Q1561198676268'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+18:17:56.312 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'FsbayScheduler' initialized from an externally provided properties instance.
+18:17:56.312 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+18:17:56.315 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5d872df9
+18:18:04.161 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:18:05.587 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:18:05.618 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:18:05.787 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:18:06.102 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-7000"]
+18:18:06.119 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+18:18:06.160 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarted,59] - Started MerchantApplication in 27.009 seconds (JVM running for 28.021)
+18:18:07.524 [Quartz Scheduler [FsbayScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561198676268 started.
+18:18:19.804 [http-nio-7000-exec-1] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:18:19.897 [http-nio-7000-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+18:18:19.907 [http-nio-7000-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+18:18:19.912 [http-nio-7000-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [shiro-activeSessionCache]
+18:18:20.900 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+18:18:20.935 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+18:19:17.999 [schedule-pool-2] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:28:20.900 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+18:28:20.933 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+18:30:26.533 [Thread-7] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561198676268 paused.
+18:30:26.543 [Thread-7] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561198676268 shutting down.
+18:30:26.543 [Thread-7] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561198676268 paused.
+18:30:26.546 [Thread-7] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561198676268 shutdown complete.
+18:30:26.546 [Thread-7] INFO  sys-user - [shutdownSpringSessionValidationScheduler,44] - ====关闭会话验证任务====
+18:30:26.549 [Thread-7] INFO  sys-user - [shutdownAsyncManager,61] - ====关闭后台任务任务线程池====
+18:30:26.564 [Thread-7] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+18:30:28.359 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarting,50] - Starting MerchantApplication on DESKTOP-EMESP7Q with PID 6796 (E:\code\open\fsbay\frame\Manage\fsbay-admin\target\classes started by John in E:\code\open\fsbay\frame\Manage\fsbay-admin)
+18:30:28.361 [restartedMain] INFO  c.f.m.MerchantApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+18:30:30.641 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache.1' does not yet exist.  Creating now.
+18:30:30.643 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache.1]
+18:30:31.834 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+18:30:32.381 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-7000"]
+18:30:32.381 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:30:32.382 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+18:30:32.454 [restartedMain] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:30:35.695 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-2} inited
+18:30:35.723 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+18:30:35.727 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+18:30:35.728 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+18:30:35.728 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'FsbayScheduler' with instanceId 'DESKTOP-EMESP7Q1561199435725'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+18:30:35.729 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'FsbayScheduler' initialized from an externally provided properties instance.
+18:30:35.729 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+18:30:35.730 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@42478542
+18:30:40.730 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:30:41.562 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:30:41.564 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:30:41.674 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:30:41.761 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-7000"]
+18:30:41.765 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+18:30:41.775 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarted,59] - Started MerchantApplication in 13.594 seconds (JVM running for 783.637)
+18:30:41.839 [http-nio-7000-exec-1] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:30:41.850 [http-nio-7000-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+18:30:41.852 [http-nio-7000-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+18:30:41.899 [schedule-pool-1] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+18:30:42.853 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+18:30:42.893 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+18:30:43.095 [Quartz Scheduler [FsbayScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561199435725 started.
+18:31:05.776 [schedule-pool-2] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:32:00.675 [schedule-pool-1] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+18:41:02.226 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarting,50] - Starting MerchantApplication on DESKTOP-EMESP7Q with PID 12072 (E:\code\open\fsbay\frame\Manage\fsbay-admin\target\classes started by John in E:\code\open\fsbay\frame\Manage\fsbay-admin)
+18:41:02.235 [restartedMain] INFO  c.f.m.MerchantApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+18:41:08.871 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+18:41:08.873 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.fsbay.manage.framework.shiro.realm.UserRealm.authorizationCache]
+18:41:11.333 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+18:41:14.869 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-7000"]
+18:41:14.890 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:41:14.891 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+18:41:14.914 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\John\AppData\Local\Microsoft\WindowsApps;C:\sbin;C:\Users\John\AppData\Roaming\npm;D:\Program Files\mysql-5.7.25-winx64\bin;D:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\John\AppData\Local\Yarn\bin;.]
+18:41:15.193 [restartedMain] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:41:18.555 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+18:41:18.671 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1208] - Using default implementation for ThreadExecutor
+18:41:18.713 [restartedMain] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+18:41:18.715 [restartedMain] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.0 created.
+18:41:18.733 [restartedMain] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'FsbayScheduler' with instanceId 'DESKTOP-EMESP7Q1561200078679'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+18:41:18.735 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1362] - Quartz scheduler 'FsbayScheduler' initialized from an externally provided properties instance.
+18:41:18.735 [restartedMain] INFO  o.q.i.StdSchedulerFactory - [instantiate,1366] - Quartz scheduler version: 2.3.0
+18:41:18.739 [restartedMain] INFO  o.q.c.QuartzScheduler - [setJobFactory,2287] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@59af0442
+18:41:24.157 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:41:25.658 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,147] - Context refreshed
+18:41:25.698 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,150] - Found 1 custom documentation plugin(s)
+18:41:25.867 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:41:26.248 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-7000"]
+18:41:26.265 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+18:41:26.311 [restartedMain] INFO  c.f.m.MerchantApplication - [logStarted,59] - Started MerchantApplication in 25.046 seconds (JVM running for 26.101)
+18:41:27.609 [Quartz Scheduler [FsbayScheduler]] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler FsbayScheduler_$_DESKTOP-EMESP7Q1561200078679 started.
+18:41:40.674 [http-nio-7000-exec-1] INFO  o.a.c.c.C.[.[.[/merchant] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:41:40.739 [http-nio-7000-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+18:41:40.749 [http-nio-7000-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+18:41:40.750 [http-nio-7000-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [shiro-activeSessionCache]
+18:41:41.832 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+18:41:41.913 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+18:45:38.389 [schedule-pool-1] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+18:45:46.358 [schedule-pool-3] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:47:12.602 [schedule-pool-5] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+18:51:41.742 [schedule-pool-3] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+18:51:42.032 [schedule-pool-3] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+19:01:41.743 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+19:01:41.938 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. [1] sessions were stopped.
+19:11:41.743 [schedule-pool-6] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+19:11:41.777 [schedule-pool-6] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+19:21:41.742 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+19:21:41.800 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+19:31:41.743 [schedule-pool-7] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+19:31:41.770 [schedule-pool-7] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+19:41:41.742 [schedule-pool-5] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+19:41:41.771 [schedule-pool-5] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+19:51:41.742 [schedule-pool-4] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+19:51:41.819 [schedule-pool-4] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+20:01:41.741 [schedule-pool-3] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+20:01:41.875 [schedule-pool-3] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+20:11:41.741 [schedule-pool-8] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+20:11:41.772 [schedule-pool-8] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+20:21:41.742 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+20:21:41.773 [schedule-pool-1] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+20:31:41.743 [schedule-pool-9] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+20:31:41.794 [schedule-pool-9] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+20:41:41.741 [schedule-pool-6] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+20:41:41.775 [schedule-pool-6] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+20:51:41.742 [schedule-pool-10] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+20:51:41.819 [schedule-pool-10] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+21:01:41.742 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+21:01:41.774 [schedule-pool-2] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+21:11:41.741 [schedule-pool-11] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+21:11:41.783 [schedule-pool-11] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+21:21:41.742 [schedule-pool-7] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+21:21:41.776 [schedule-pool-7] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.
+21:31:41.742 [schedule-pool-12] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,91] - invalidation sessions...
+21:31:41.784 [schedule-pool-12] INFO  c.f.m.f.s.w.s.OnlineWebSessionManager - [validateSessions,150] - Finished invalidation session. No sessions were stopped.

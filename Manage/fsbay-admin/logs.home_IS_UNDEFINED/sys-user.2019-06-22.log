@@ -1,0 +1,12 @@
+16:48:55.002 [Thread-7] INFO  sys-user - [shutdownSpringSessionValidationScheduler,44] - ====关闭会话验证任务====
+16:48:55.003 [Thread-7] INFO  sys-user - [shutdownAsyncManager,61] - ====关闭后台任务任务线程池====
+18:09:33.283 [schedule-pool-1] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:19:17.999 [schedule-pool-2] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:30:26.546 [Thread-7] INFO  sys-user - [shutdownSpringSessionValidationScheduler,44] - ====关闭会话验证任务====
+18:30:26.549 [Thread-7] INFO  sys-user - [shutdownAsyncManager,61] - ====关闭后台任务任务线程池====
+18:30:41.899 [schedule-pool-1] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+18:31:05.776 [schedule-pool-2] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:32:00.675 [schedule-pool-1] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+18:45:38.389 [schedule-pool-1] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+18:45:46.358 [schedule-pool-3] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:47:12.602 [schedule-pool-5] INFO  sys-user - [run,112] - [127.0.0.1]内网IP[admin][Logout][退出成功]
